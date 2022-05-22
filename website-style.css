@@ -1,0 +1,496 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Alice;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style:'Nanum Myeongjo';
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+/*----------------------------Blog---------------------------------------*/
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 236, 236);
+    height: 50px;
+    padding: 40px;
+    
+}
+
+.blog-heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f33c3c;
+    
+
+}
+
+.blog-heading span{
+    color: #f33c3c
+
+}
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(400px, auto);
+    width: 50%;
+    grid-gap: 15px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    color: #444;
+    position: relative;
+
+}
+
+.card .post {
+    padding-bottom: 60%;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 236, 236);
+    height: 50px;
+    padding: 40px; 
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {  
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Alice;
+        box-sizing: border-box;
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    ul{
+        list-style:'Nanum Myeongjo';
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    /*----------------------------Blog---------------------------------------*/
+    
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(243, 236, 236);
+        height: 50px;
+        padding: 40px;
+        
+    }
+    
+    .blog-heading{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #f33c3c;
+        
+    
+    }
+    
+    .blog-heading span{
+        color: #f33c3c
+    
+    }
+    
+    
+    .container {
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(400px, auto);
+        width: 50%;
+        grid-gap: 15px;
+        margin: auto;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        color: #444;
+        position: relative;
+    
+    }
+    
+    .card .post {
+        padding-bottom: 60%;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(243, 236, 236);
+        height: 50px;
+        padding: 40px; 
+      }
+    }
+
+@media screen and (min-width: 901px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Alice;
+        box-sizing: border-box;
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    ul{
+        list-style:'Nanum Myeongjo';
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    /*----------------------------Blog---------------------------------------*/
+    
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(243, 236, 236);
+        height: 50px;
+        padding: 40px;
+        
+    }
+    
+    .blog-heading{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #f33c3c;
+        
+    
+    }
+    
+    .blog-heading span{
+        color: #f33c3c
+    
+    }
+    
+    
+    .container {
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(400px, auto);
+        width: 50%;
+        grid-gap: 15px;
+        margin: auto;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        color: #444;
+        position: relative;
+    
+    }
+    
+    .card .post {
+        padding-bottom: 60%;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(243, 236, 236);
+        height: 50px;
+        padding: 40px; 
+      }
+    }
+
+                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Stop End of Style Sheet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        /* CSS NOTES    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        #blogcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 5px solid rgb(251, 152, 152);
+}
+
+.blog-container{
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 20 px 0 px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 400px;
+    background-color: #ffffff;
+    border: 1 px solid #ececec;
+    margin: 20 px;
+}
+
+img {
+    
+    height: 100%;
+    width: 100%;
+}
+
+.blog-img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text{
+    display: flex;
+    padding: 30 px;
+    flex-direction: column;
+    object-position: center;
+}
+.blog-text span{ 
+    color:rgb(251, 152, 152);
+    font-size: 0.9rem; 
+
+}

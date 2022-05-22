@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pacifico';
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: georgian;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+/*                                  Blog*                                       */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 69, 133);
+    height: 50px;
+    padding: 40px;
+
+}
+
+.background{
+    background-image: url(EmilyPic.jpg);
+    background-size: 500px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid;
+    color: rgb(153, 234, 231);
+
+
+}
+header.page-header {
+    background: no-repeat left/cover url(EmilyPic.jpg);
+    display: flex;
+    height: 300px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: rgb(22, 21, 21) 0 0 .2em;
+    
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+
+    margin: 2%;
+}
+.card-footer {
+    background-color: #aaa;
+}
+
+.nav-card-footer {
+    list-style-type:armenian;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+
+.footer-item {
+    color: white;
+    padding: 1rem
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+.SideGrid{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pacifico';
+    box-sizing: border-box;
+    
+}
+    
+a{
+    text-decoration: none;
+}
+    
+ul{
+    list-style: georgian;
+}
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    
+    /*                                  Blog*                                       */
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(133, 69, 133);
+        height: 50px;
+        padding: 40px;
+    
+    }
+    
+    .background{
+        background-image: url(EmilyPic.jpg);
+        background-size: 500px;
+        width: fit-content;
+        height: fit-content;
+        border: 2px solid;
+        color: rgb(153, 234, 231);
+    
+    
+    }
+    header.page-header {
+        background: no-repeat left/cover url(EmilyPic.jpg);
+        display: flex;
+        height: 300px;
+        min-width: 120px;
+        align-items: center;
+        color: #fff;
+        text-shadow: rgb(22, 21, 21) 0 0 .2em;
+        
+    }
+    
+    header.page-header > h1 {
+        font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+            fantasy;
+    
+        margin: 2%;
+    }
+    .card-footer {
+        background-color: #aaa;
+    }
+    
+    .nav-card-footer {
+        list-style-type:armenian;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around
+    }
+    
+    .footer-item {
+        color: white;
+        padding: 1rem
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .SideGrid{
+        position: relative;
+        padding: 20px;
+        width: 100%;
+      }
+    }
+
+ @media screen and (min-width: 901px) {
+
+ *{
+    margin: 0px;
+            padding: 0px;
+            font-family: 'Pacifico';
+            box-sizing: border-box;
+        
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        ul{
+            list-style: georgian;
+        }
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+        
+        /*                                  Blog*                                       */
+        
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(133, 69, 133);
+            height: 50px;
+            padding: 40px;
+        
+        }
+        
+        .background{
+            background-image: url(EmilyPic.jpg);
+            background-size: 500px;
+            width: fit-content;
+            height: fit-content;
+            border: 2px solid;
+            color: rgb(153, 234, 231);
+        
+        
+        }
+        header.page-header {
+            background: no-repeat left/cover url(EmilyPic.jpg);
+            display: flex;
+            height: 300px;
+            min-width: 120px;
+            align-items: center;
+            color: #fff;
+            text-shadow: rgb(22, 21, 21) 0 0 .2em;
+            
+        }
+        
+        header.page-header > h1 {
+            font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+                fantasy;
+        
+            margin: 2%;
+        }
+        .card-footer {
+            background-color: #aaa;
+        }
+        
+        .nav-card-footer {
+            list-style-type:armenian;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around
+        }
+        
+        .footer-item {
+            color: white;
+            padding: 1rem
+        }
+        
+        .title{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .SideGrid{
+            position: relative;
+            padding: 20px;
+            width: 100%;
+          }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*                            End of Style
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  CSS NOTES
+
+
+.NestedGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  .NestedGrid > *{
+    border: 2px solid aquamarine;
+  }
